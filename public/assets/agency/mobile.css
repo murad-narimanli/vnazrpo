@@ -1,0 +1,46 @@
+@media (max-width: 576px) {
+    .agency-flex-cards-mobile{
+        background-color: #fff !important;
+        display: flex !important;
+        justify-content: space-evenly !important;
+    }
+
+    .agency-flex-cards-mobile .mobile__card{
+        width: 45% !important;
+        max-width: none !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: space-between;
+    }
+
+    .agency-flex-cards .agency-card .mobile__request-box {
+        width: 60% !important;
+        background-color: rgba(119, 104, 171, 0.16) !important;
+        margin-bottom: 20px;
+        min-height: 34px;
+    }
+}
+
+@media (max-width: 446px) {
+
+    .agency-flex-cards .agency-card .mobile__request-box {
+        width: 80% !important;
+        background-color: rgba(119, 104, 171, 0.16) !important;
+        margin-bottom: 20px;
+        min-height: 34px;
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width: 398px) {
+    .agency-flex-cards-mobile .mobile__card .paragraphs{
+        font-size: 10px !important;
+    }
+
+        .agency-flex-cards .agency-card .mobile__request-box {
+            width: 80% !important;
+            font-size: 9px;
+        }
+}
+

@@ -1,0 +1,61 @@
+@media (max-width: 576px) {
+   .last-ads-cards-section div .custom__cards-flex {
+       display: flex !important;
+       justify-content: space-between !important;
+    }
+
+    .last-ads-cards-section div .last-section-cards-flex .custom__last-cards {
+        width: 45% !important;
+        max-width: none !important;
+    }
+
+    #custom__card-date p {
+        font-size: 10px !important;
+    }
+
+    .last-section-cards-flex .last-section-card .last-section-card-content .last-section-third-row {
+        margin-bottom: 10px;
+    }
+
+    .last-section-cards-flex .last-section-card .last-section-card-content .last-section-third-row h4 {
+        width: 100% !important;
+    }
+
+    .second-row {
+        padding-left: 10px !important;
+    }
+
+    .last-section-cards-flex .last-section-card .last-section-card-content .last-section-third-row div button {
+        border-radius: 14px !important;
+    }
+}
+
+@media (max-width: 454px) {
+    #custom__card-date p {
+        font-size: 10px !important;
+    }
+
+    .last-section-cards-flex .last-section-card .last-section-card-content .last-section-third-row h4 {
+        width: 100% !important;
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 388px) {
+    #custom__card-date p {
+        font-size: 8px !important;
+    }
+
+    .last-section-cards-flex .last-section-card .last-section-card-content .last-section-third-row h4 {
+        width: 100% !important;
+        font-size: 8px !important;
+    }
+
+    #custom__card-date {
+        position: absolute;
+        width: 50%;
+        top: 90.5%;
+        left: 54%;
+        display: block !important;
+    }
+}

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Agency-inner</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <div class="upper-nav">
+                    <div class="upper-nav-left">
+                        <ul class="change-lang">
+                            <li class="az-lang-main"><p class="az-not-abbr-main">Azərbaycan dili</p><p class="az-abbr-main">AZ</p><i class="fas fa-caret-down"></i>
+                                <div class="lang-hidden">
+                                    <ul>
+                                        <i class="fas fa-caret-up"></i>
+                                        <li class="en-lang">
+                                            <p class="en-not-abbr">İngilis dili</p>
+                                            <p class="en-abbr">EN</p>
+                                        </li>
+
+                                        <li class="az-lang">
+                                            <p class="az-not-abbr">Azərbaycan dili</p>
+                                            <p class="az-abbr">AZ</p>
+                                        </li>
+                                    </ul>
+                               </div>
+                            </li>
+                            <li><a href="#">Haqqımızda</a></li>
+                            <li><a href="#">Reklam yerləşdir</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="upper-nav-right">
+                        <ul>
+                            <li class="upper-nav-right-list-item"><a href="#"><i class="fas fa-exchange-alt" onclick="addCompareList('{{$value['_id']}}')"></i><p>Müqayisə et (3)</p></a></li>
+                            <li class="upper-nav-right-list-item"><a href="#"><i class="fas fa-star"></i><p>Seçilmişlər (5)</p></a></li>
+                            <li class="upper-nav-right-list-item"><a href="#">Əlaqə: (012) 409 08 08</a></li>
+                        </ul>
+                    </div>
+               </div>
+
+               <div class="lower-nav">
+                   <div class="lower-nav-left">
+                       <div class="logo">
+                          <i class="fas fa-home"></i>
+                       </div>
+
+                       <ul class="nav-list-ul">
+                           <li class="dropped-item"><a href="#">Satış</a></li>
+                           <div class="drop-down">
+                               <ul>
+                                   <i class="fas fa-caret-up"></i>
+                                   <li class="drop-down-menu-items"><a href="#">Yeni tikili</a></li>
+                                   <li class="drop-down-menu-items"><a href="#">Köhnə tikili</a></li>
+                                   <li class="drop-down-menu-items"><a href="#">Ev / Villa</a></li>
+                                   <li class="drop-down-menu-items"><a href="#">Bağ</a></li>
+                                   <li class="drop-down-menu-items"><a href="#">Ofis</a></li>
+                                   <li class="drop-down-menu-items"><a href="#">Qaraj</a></li>
+                                   <li class="drop-down-menu-items"><a href="#">Torpaq</a></li>
+                                   <li class="drop-down-menu-items"><a href="#">Obyekt</a></li>
+                               </ul>
+                           </div>
+                           <li><a href="#">Kirayə</a></li>
+                           <li><a href="#">Mənzil sifariş et</a></li>
+                           <li><a href="../repair-page/repair.html">Mənzil təmiri</a></li>
+                       </ul>
+                   </div>
+
+                   <div class="lower-nav-right">
+                       <div class="user-button">
+                           <button><i class="far fa-user"></i>Giriş et</button>
+                       </div>
+                       <div class="adver-button">
+                           <button>Elan yerləşdir</button>
+                       </div>
+                   </div>
+               </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <div class="agency-inner-container container">
+                    <div class="agency-inner-section-first">
+                        <div class="agency-inner-section-header">
+                            <p class="agency-inner-section-header-p"><a href="#">Satış</a> <span>></span> </p>
+                            <p class="agency-inner-section-header-p"><a href="#">Ev elanları</a> <span>></span> </p>
+                            <p class="agency-inner-section-header-p"><a href="#">Son elanlar</a></p>
+                        </div>
+
+                        <div class="agency-inner-section-first-left-flex">
+                            <div class="agency-inner-section-first-left">
+                                <div class="agency-inner-section-first-left-image">
+                                    <figure>
+                                        <img src="../../images/random.jpg" alt="">
+                                    </figure>
+                                </div>
+
+                                <div class="agency-inner-section-first-left-information">
+                                    <h3>Real Əmək Agentliyi</h3>
+                                    <p>Lorem Ipsum xəttatlıq və çap sənayesində istifadə olunan, qarışıq mətnlər toplusudur. Lorem Ipsum adı məlum olmayan mətbəə işçisinin 1500-cü illərdə nümunə mətinlərin yaradılması üçün heca və hərflər çoxluğunu qarışdıraraq hazırladığı və bugünə qədər istifadə olunan mətinlər standartıdır.</p>
+                                    <p class="agency-inner-section-first-left-information-bottom">35 Təklif</p>
+                                </div>
+                            </div>
+
+                            <div class="agency-inner-section-connection">
+                                <div class="agency-inner-section-connection-phone">
+                                    <div class="agency-inner-section-connection-icon">
+                                        <i class="fas fa-phone-volume"></i>
+                                    </div>
+
+                                    <div>
+                                        <ul>
+                                            <li>(050) 444 44 44</li>
+                                            <li>(050) 555 55 55</li>
+                                            <li>(012) 226 56 56</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="agency-inner-section-connection-location">
+                                    <div class="agency-inner-section-connection-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+
+                                    <div>
+                                        <p>Bakı şəhəri, Yasamal r., Ə.Əhmədov küç.</p>
+                                    </div>
+                                </div>
+
+                                <div class="agency-inner-section-connection-mail">
+                                    <div class="agency-inner-section-connection-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+
+                                    <div>
+                                        <p>realtour@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="agency-section-inner-nav">
+                            <ul>
+                                <li><a href="">Hamısı</a></li>
+                                <li><a href="">Yeni tikili</a></li>
+                                <li><a href="">Köhnə tikili</a></li>
+                                <li><a href="">Ev / Villa</a></li>
+                                <li><a href="">Bağ</a></li>
+                                <li><a href="">Ofis</a></li>
+                                <li><a href="">Qaraj</a></li>
+                                <li><a href="">Torpaq</a></li>
+                                <li><a href="">Obyekt</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="agency-section-all-cards">
+                            <div class="agency-section-card">
+                                <figure>
+                                    <img src="../../images/room.jpg" alt="">
+                                </figure>
+                                <div class="agency-section-card-title">
+                                    <h5>Xırdalan şəhəri, Heydər Əliyev pr.267, Ə.Əliyev küç.</h5>
+                                </div>
+                                <div class="agency-section-card-content">
+                                    <div class="agency-section-first-row">
+                                        <div>
+                                            <span><i class="fas fa-bed"></i></span>
+                                            <p>3 otaq</p>
+                                        </div>
+
+                                        <div>
+                                            <span><i class="fas fa-square"></i></span>
+                                            <p>150&#13217;</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-second-row">
+                                        <div>
+                                            <span><i class="far fa-building"></i></span>
+                                            <p>13/13 mərtəbə</p>
+                                        </div>
+
+                                        <div class="agency-section-date">
+                                            <p>Bakı, 01.03.2021</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-third-row">
+                                        <h4>1.000.000 AZN</h4>
+                                        <div>
+                                            <button>
+                                                <i class="far fa-star" onclick="addSelectedList('{{$value['_id']}}')"></i>
+                                            </button>
+                                            <button>
+                                                <i class="fas fa-exchange-alt" onclick="addCompareList('{{$value['_id']}}')"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="agency-section-card">
+                                <figure>
+                                    <img src="../../images/room.jpg" alt="">
+                                </figure>
+                                <div class="agency-section-card-title">
+                                    <h5>Xırdalan şəhəri, Heydər Əliyev pr.267, Ə.Əliyev küç.</h5>
+                                </div>
+                                <div class="agency-section-card-content">
+                                    <div class="agency-section-first-row">
+                                        <div>
+                                            <span><i class="fas fa-bed"></i></span>
+                                            <p>3 otaq</p>
+                                        </div>
+
+                                        <div>
+                                            <span><i class="fas fa-square"></i></span>
+                                            <p>150&#13217;</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-second-row">
+                                        <div>
+                                            <span><i class="far fa-building"></i></span>
+                                            <p>13/13 mərtəbə</p>
+                                        </div>
+
+                                        <div class="agency-section-date">
+                                            <p>Bakı, 01.03.2021</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-third-row">
+                                        <h4>1.000.000 AZN</h4>
+                                        <div>
+                                            <button>
+                                                <i class="far fa-star" onclick="addSelectedList('{{$value['_id']}}')"></i>
+                                            </button>
+                                            <button>
+                                                <i class="fas fa-exchange-alt" onclick="addCompareList('{{$value['_id']}}')"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="agency-section-card">
+                                <figure>
+                                    <img src="../../images/room.jpg" alt="">
+                                </figure>
+                                <div class="agency-section-card-title">
+                                    <h5>Xırdalan şəhəri, Heydər Əliyev pr.267, Ə.Əliyev küç.</h5>
+                                </div>
+                                <div class="agency-section-card-content">
+                                    <div class="agency-section-first-row">
+                                        <div>
+                                            <span><i class="fas fa-bed"></i></span>
+                                            <p>3 otaq</p>
+                                        </div>
+
+                                        <div>
+                                            <span><i class="fas fa-square"></i></span>
+                                            <p>150&#13217;</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-second-row">
+                                        <div>
+                                            <span><i class="far fa-building"></i></span>
+                                            <p>13/13 mərtəbə</p>
+                                        </div>
+
+                                        <div class="agency-section-date">
+                                            <p>Bakı, 01.03.2021</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-third-row">
+                                        <h4>1.000.000 AZN</h4>
+                                        <div>
+                                            <button>
+                                                <i class="far fa-star" onclick="addSelectedList('{{$value['_id']}}')"></i>
+                                            </button>
+                                            <button>
+                                                <i class="fas fa-exchange-alt" onclick="addCompareList('{{$value['_id']}}')"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="agency-section-card">
+                                <figure>
+                                    <img src="../../images/room.jpg" alt="">
+                                </figure>
+                                <div class="agency-section-card-title">
+                                    <h5>Xırdalan şəhəri, Heydər Əliyev pr.267, Ə.Əliyev küç.</h5>
+                                </div>
+                                <div class="agency-section-card-content">
+                                    <div class="agency-section-first-row">
+                                        <div>
+                                            <span><i class="fas fa-bed"></i></span>
+                                            <p>3 otaq</p>
+                                        </div>
+
+                                        <div>
+                                            <span><i class="fas fa-square"></i></span>
+                                            <p>150&#13217;</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-second-row">
+                                        <div>
+                                            <span><i class="far fa-building"></i></span>
+                                            <p>13/13 mərtəbə</p>
+                                        </div>
+
+                                        <div class="agency-section-date">
+                                            <p>Bakı, 01.03.2021</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-third-row">
+                                        <h4>1.000.000 AZN</h4>
+                                        <div>
+                                            <button>
+                                                <i class="far fa-star" onclick="addSelectedList('{{$value['_id']}}')"></i>
+                                            </button>
+                                            <button>
+                                                <i class="fas fa-exchange-alt" onclick="addCompareList('{{$value['_id']}}')"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="agency-section-card">
+                                <figure>
+                                    <img src="../../images/room.jpg" alt="">
+                                </figure>
+                                <div class="agency-section-card-title">
+                                    <h5>Xırdalan şəhəri, Heydər Əliyev pr.267, Ə.Əliyev küç.</h5>
+                                </div>
+                                <div class="agency-section-card-content">
+                                    <div class="agency-section-first-row">
+                                        <div>
+                                            <span><i class="fas fa-bed"></i></span>
+                                            <p>3 otaq</p>
+                                        </div>
+
+                                        <div>
+                                            <span><i class="fas fa-square"></i></span>
+                                            <p>150&#13217;</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-second-row">
+                                        <div>
+                                            <span><i class="far fa-building"></i></span>
+                                            <p>13/13 mərtəbə</p>
+                                        </div>
+
+                                        <div class="agency-section-date">
+                                            <p>Bakı, 01.03.2021</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-third-row">
+                                        <h4>1.000.000 AZN</h4>
+                                        <div>
+                                            <button>
+                                                <i class="far fa-star" onclick="addSelectedList('{{$value['_id']}}')"></i>
+                                            </button>
+                                            <button>
+                                                <i class="fas fa-exchange-alt" onclick="addCompareList('{{$value['_id']}}')"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="agency-section-card">
+                                <figure>
+                                    <img src="../../images/room.jpg" alt="">
+                                </figure>
+                                <div class="agency-section-card-title">
+                                    <h5>Xırdalan şəhəri, Heydər Əliyev pr.267, Ə.Əliyev küç.</h5>
+                                </div>
+                                <div class="agency-section-card-content">
+                                    <div class="agency-section-first-row">
+                                        <div>
+                                            <span><i class="fas fa-bed"></i></span>
+                                            <p>3 otaq</p>
+                                        </div>
+
+                                        <div>
+                                            <span><i class="fas fa-square"></i></span>
+                                            <p>150&#13217;</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-second-row">
+                                        <div>
+                                            <span><i class="far fa-building"></i></span>
+                                            <p>13/13 mərtəbə</p>
+                                        </div>
+
+                                        <div class="agency-section-date">
+                                            <p>Bakı, 01.03.2021</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="agency-section-third-row">
+                                        <h4>1.000.000 AZN</h4>
+                                        <div>
+                                            <button>
+                                                <i class="far fa-star" onclick="addSelectedList('{{$value['_id']}}')"></i>
+                                            </button>
+                                            <button>
+                                                <i class="fas fa-exchange-alt" onclick="addCompareList('{{$value['_id']}}')"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-section">
+            <div class="upper-footer">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span><i class="fas fa-home"></i></span>
+                        <h4>Evin.az</h4>
+                    </div>
+
+                    <div>
+                        <p>Evin.az daşınmaz əmlakın satış və kirayəsi xidmətlərini digital sferada təqdim edən platformadır.</p>
+                    </div>
+                </div>
+
+                <div class="footer-right-flex">
+                    <div class="footer-lists  footer-lists-first">
+                        <h3>İstifadəçilərə</h3>
+                        <ul class="footer-list">
+                            <li>İstifadəçi razılaşması</li>
+                            <li>Reklam yerləşdir</li>
+                            <li>Haqqımızda</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </div>
+                    <div class="footer-lists">
+                        <h3>Qısayollar</h3>
+                        <ul class="footer-list">
+                            <li>Agentliklər</li>
+                            <li>Maklerlər</li>
+                            <li>Biznes mərkəzləri</li>
+                        </ul>
+                    </div>
+                    <div class="footer-lists">
+                        <h3>Əlaqə</h3>
+                        <ul class="footer-list">
+                            <li>(012) 409 08 08</li>
+                            <li>(050) 554 08 08</li>
+                            <li>(077) 554 08 08</li>
+                            <li>info@evin.az</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lower-footer">
+                <div class="tradeMark">
+                    <p>&#169; All rights reserved 2021. Evin.az</p>
+                </div>
+
+                <div class="social-media">
+                    <ul>
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-youtube"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>Bu bir <span id="pink">Marcom</span> məhsuludur.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

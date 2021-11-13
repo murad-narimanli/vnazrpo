@@ -1,0 +1,49 @@
+@media (max-width: 576px) {
+    .business__flex-cards {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .business__flex-cards .business__card {
+        width: 45% !important;
+        max-width: none !important;
+        position: relative;
+        min-width: 165px;
+        display: flex !important;
+        justify-content: space-between !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .business__flex-cards .business__card .business__button {
+        border-radius: 6px !important;
+        background-color: rgba(121, 103, 173, 0.1) !important;
+        height: 34px !important;
+        margin: 10px;
+        width: 70% !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 408px) {
+    .business__flex-cards .business__card {
+        min-width: unset;
+    }
+    .business__flex-cards .business__card .business__button {
+        border-radius: 6px !important;
+        background-color: rgba(121, 103, 173, 0.1) !important;
+        height: 34px !important;
+        margin: 0;
+        margin-bottom: 10px;
+        width: 100% !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    agency-flex-cards .agency-card .agency-phone, .agency-flex-cards .agency-card .agency-adress, .agency-flex-cards .agency-card .agency-phone, .agency-flex-cards .agency-card .agency-adress{
+        font-size: 10px;
+    }
+}

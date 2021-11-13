@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_58" data-name="Rectangle 58" width="18" height="18" fill="#fff" stroke="#707070" stroke-width="1"/>
+        </clipPath>
+    </defs>
+    <g id="Mask_Group_11" data-name="Mask Group 11" clip-path="url(#clip-path)">
+        <g id="stairs-with-handrail" transform="translate(0 0.729)">
+            <g id="Group_386" data-name="Group 386">
+                <g id="Group_385" data-name="Group 385">
+                    <path id="Path_881" data-name="Path 881" d="M17.085,3.549H13.8a.914.914,0,0,0-.915.915V6.837H10.509a.914.914,0,0,0-.915.914v2.374H7.22a.915.915,0,0,0-.915.914v2.488H3.817a.914.914,0,0,0-.915.914v1.913a.914.914,0,0,0,.915.915H17.085A.914.914,0,0,0,18,16.356V4.463A.914.914,0,0,0,17.085,3.549Z" transform="translate(0 -0.729)" fill="#7967ad"/>
+                    <path id="Path_882" data-name="Path 882" d="M12.272.913A.61.61,0,0,0,11.41.9C7.5,4.712,3.777,8.434.179,12.032A.611.611,0,0,0,0,12.463v4.173a.61.61,0,1,0,1.22,0V12.716c3.54-3.54,7.2-7.2,11.041-10.94A.61.61,0,0,0,12.272.913Z" transform="translate(0 -0.729)" fill="#7967ad"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

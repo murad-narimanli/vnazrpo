@@ -1,0 +1,42 @@
+@media (max-width: 440px) {
+    .mobile-login-card{
+        width: 90vw !important;
+    }
+    /*.mobile-login-card .sign-in-btns button{*/
+    /*    width: 105% !important;*/
+    /*}*/
+}
+
+@media (max-width: 576px) {
+    .reg-pass{
+        width: 95% !important;
+    }
+
+    .reg-pass input{
+        width: 100% !important;
+    }
+
+    .sign-up-user-div-mob{
+        margin-right: 0 !important;
+    }
+
+    .new-pass-section-repeat:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .sign-in-phone-mob{
+        max-width: unset !important;
+        width: 100% !important;
+    }
+
+    .fb-parent-mob {
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+}
+
+@media (max-width: 370px) {
+
+}

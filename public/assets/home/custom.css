@@ -1,0 +1,592 @@
+.date-mob-footer {
+    display: none;
+}
+
+.item-hidden-icon {
+    margin-right: 8px;
+}
+
+@media (max-width: 1123px) {
+    .last-section-cards-flex .last-section-card{
+        width: 45%;
+    }
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 220px;
+    min-height: 220px;
+    overflow: hidden;
+    background-color: lightgray;
+}
+.card-image img{
+    height: 100%;
+    width: auto; !important;
+    object-fit: cover;
+}
+@media (max-width: 576px) {
+    .card-image{
+        min-height: 140px;
+        max-height: 140px;
+    }
+    /*for common*/
+    .custom-card-title.fa-1x{
+        font-size: 14px;
+        font-weight: 600 !important;
+    }
+    .f-14{
+        font-size: 14px;
+    }
+    .f-12{
+        font-size: 12px;
+    }
+    .mobileCard h4 {
+        color: #7967ad;
+        font-size: 14px !important;
+        font-weight: 600;
+    }
+    /*my codes*/
+    .line-clamp {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .line-1{
+        -webkit-line-clamp: 1;
+    }
+    /*my codes*/
+    .allAdver .vip-flex-cards .vip-card .vip-card-content .vip-second-row .vip-date{
+        display: none;
+    }
+    .allAdver .vip-flex-cards .vip-card .vip-card-content .vip-third-row, .rent-third-row ,
+    .latest-flex-cards .latest-card .latest-card-content .latest-third-row
+    {
+        border-top:none !important;
+    }
+
+    /*my codes*/
+    .elanlar .allAdver .custom__vip-title {
+        width: 100% !important;
+        min-width: unset;
+    }
+
+    .elanlar .allAdver .custom__flex-cards {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .elanlar .allAdver .custom__flex-cards .custom__card-container {
+        width: 48% !important;
+        max-width: none !important;
+        position: relative;
+        min-width: 165px;
+    }
+
+
+    footer .footer-section .upper-footer .footer-about {
+        width: 100%;
+        display: flex;
+    }
+
+    .searching-section .searching-div .custom__search-container .custom__search-form {
+        justify-content: space-between;
+    }
+
+    .searching-section
+    .searching-div
+    .custom__search-container
+    .custom__search-form
+    .custom__form-item,
+    .form-div {
+        width: 30% !important;
+        margin: 10px 0 !important;
+        font-size: 12px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    section .last-ads-container div .custom__cards-flex {
+        margin-top: 20px;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .container div .custom__cards-flex .custom__last-section-card {
+        width: 47% !important;
+        max-width: none !important;
+    }
+
+    .container div .custom__cards-flex .custom__last-section-card figure img {
+        width: 100% !important;
+    }
+
+    .aside-buttons {
+        display: none;
+    }
+
+    .custom__card-footer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+        margin-bottom: -15px;
+        align-items: center;
+        border-top: none !important;
+    }
+
+    .custom__card-footer h4 {
+        font-size: 14px !important;
+        font-weight: 600;
+        padding: 0;
+        width: 70% !important;
+        margin: 0 !important;
+    }
+
+    .custom__card-footer div {
+        width: 40%;
+        display: flex;
+    }
+
+    .allAdver .vip-flex-cards .vip-card .vip-card-content {
+        padding-top: 0;
+    }
+
+    .allAdver .vip-flex-cards .vip-card .vip-card-title h5 {
+        padding-left: 8px;
+        padding-top: 10px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #3b3b3b;
+    }
+
+    .last-section-cards-flex {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .last-section-cards-flex .last-section-card {
+        width: 45% !important;
+        max-width: none !important;
+        position: relative;
+        min-width: unset;
+    }
+
+    .rent__before-dot {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .rent__floor {
+        min-width: 86px;
+    }
+
+    .rent__before-dot::before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        border-radius: 9px;
+        margin-right: 5px;
+        background-color: #707070;
+    }
+
+    .last-section-card .rent__card-footer {
+        margin-bottom: 10px !important;
+        display: block !important;
+    }
+
+    .price {
+        margin-left: 10px !important;
+    }
+
+    .object-date {
+        margin-top: 8px !important;
+    }
+
+    .custom__left-section {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-card-inner-lower-section {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom__lower-title {
+        width: 92% !important;
+    }
+
+    .home-card-inner-lower-section-cards {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 92% !important;
+    }
+}
+@media (min-width: 576px){
+    .mobile-padding{
+        border-radius: 12px !important;
+        max-height: 420px;
+        overflow: hidden;
+    }
+    .nav-slider-card figure div{
+        border-radius: 12px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 575px) {
+    .nav-slider-card figure div{
+        width: 100% !important;
+    }
+    .custom__card-footer {
+        display: flex;
+        justify-content: space-between;
+        /*position: relative;*/
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+        padding-left: 2px !important;
+        margin-bottom: -15px;
+        align-items: center;
+    }
+
+    .custom__card-footer h4 {
+        font-size: 13px !important;
+        font-weight: 600;
+        padding: 0;
+        width: 70% !important;
+        margin: 0 !important;
+        margin-left: 10px !important;
+    }
+
+    .custom__card-footer .stars  {
+        left: -15px;
+        width: 100% !important;
+    }
+    .custom__card-footer .stars2  {
+        left: 4px;
+        width: 93% !important;
+    }
+    .custom__card-footer div {
+        width: 93% !important;
+        display: flex;
+        position: absolute;
+        top: 8px;
+        z-index: 40;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        border-radius: 50%;
+    }
+
+    .object__card-footer div {
+        width: 97% !important;
+        display: flex;
+        position: absolute;
+        top: 8px;
+        z-index: 22;
+        justify-content: space-between;
+        border-radius: 50%;
+    }
+
+    .custom__card-date {
+        position: absolute;
+        width: 50%;
+        top: 107%;
+        left: 56%;
+    }
+
+    .rent__card-date {
+        top: 136% !important;
+        left: 53% !important;
+    }
+
+    .custom__second-row {
+        position: relative;
+        padding: 5px 17px !important;
+    }
+
+    .custom__card-slider {
+        min-height: 130px !important;
+    }
+
+    .custom__before-dot {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .custom__before-dot::before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        border-radius: 9px;
+        margin-right: 5px;
+        background-color: #707070;
+    }
+
+    .date-mob-footer {
+        display: block;
+        font-size: 10px;
+        font-weight: 500;
+        color: #707070;
+        margin: 0;
+    }
+
+    .item-hidden-icon {
+        display: none;
+    }
+
+    .rent-card-content > div > div {
+        display: flex;
+        align-items: center;
+    }
+
+    .custom-card-content-item > div {
+        align-items: center;
+    }
+
+    .floor-span {
+        display: none;
+    }
+
+    .rent-second-row p {
+        margin: 0;
+    }
+
+    .custom-card-content-item > div::before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        border-radius: 9px;
+        margin-right: 5px;
+        background-color: #707070;
+    }
+
+    .price {
+        margin-left: 10px !important;
+    }
+
+    .allAdver .vip-flex-cards .vip-card, .home-card-inner-lower-section .home-card-inner-lower-section-cards .home-inner-card, .last-section-cards-flex .last-section-card, .rent-section .rent-cards-section .rent-card, .latest-flex-cards .latest-card, .agency-section .agency-flex-cards .agency-card, .complex-section .complex-flex-cards .complex-card {
+        width: 46% !important; max-width: none !important;
+    }
+    .last-section-cards-flex .last-section-card{
+        margin: 0 !important;
+        margin-bottom: 20px !important;
+        width: 47% !important;
+    }
+    .last-section-cards-flex .last-section-card.custom-width{
+        width: 100% !important;
+    }
+    .last-section-cards-flex .last-section-card.custom-width .customFooter {
+        margin: 0 !important;
+        padding-bottom: 0 !important;
+        padding: 0 !important;
+    }
+    .mobile-padding img{
+        padding: 10px 7px 0 10px;
+    }
+}
+
+@media (max-width: 473px) {
+    .custom__card-footer {
+        display: flex;
+        justify-content: space-between;
+        /*position: relative;*/
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+        padding-left: 2px !important;
+        margin-bottom: -15px;
+        align-items: center;
+    }
+
+    .custom__card-footer h4 {
+        font-size: 11px !important;
+        font-weight: 600;
+        padding: 0;
+        width: 70% !important;
+        margin: 0 !important;
+        margin-left: 10px !important;
+    }
+
+    .custom__card-footer div {
+        width: 93% !important;
+        display: flex;
+        position: absolute;
+        top: 8px;
+        z-index: 40;
+        justify-content: space-between;
+        border-radius: 50%;
+    }
+
+    .custom__card-date {
+        position: absolute;
+        width: 50%;
+        top: 107%;
+        left: 56%;
+        display: none !important;
+    }
+    .rent__card-date {
+        top: 136% !important;
+        left: 53% !important;
+    }
+
+    .custom__second-row {
+        position: relative;
+    }
+
+    .custom__card-slider {
+        min-height: 130px !important;
+    }
+
+    .custom__before-dot {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .custom__before-dot::before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        border-radius: 9px;
+        margin-right: 5px;
+        background-color: #707070;
+    }
+
+    .rent__card-date {
+        display: block !important;
+        width: 70px;
+
+    }
+
+    .custom__second-row .rent__card-date p {
+        font-size: 11px !important;
+    }
+
+    .price {
+        margin-left: 10px !important;
+    }
+
+    .mobile-img {
+        height: 125px;
+    }
+}
+
+@media (max-width: 405px) {
+    .elanlar .allAdver .custom__flex-cards .custom__card-container {
+        width: 46% !important;
+    }
+
+    .custom__card-footer {
+        display: flex;
+        justify-content: space-between;
+        /*position: relative;*/
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+        padding-left: 2px !important;
+        margin-bottom: -15px;
+        align-items: center;
+    }
+
+
+    .custom__card-footer h4 {
+        font-size: 11px !important;
+        font-weight: 600;
+        padding: 0;
+        width: 70% !important;
+        margin: 0 !important;
+        margin-left: 0px !important;
+
+    }
+
+    .custom__card-footer div {
+        width: 93% !important;
+        display: flex;
+        position: absolute;
+        top: 8px;
+        z-index: 40;
+        justify-content: space-between;
+        border-radius: 50%;
+    }
+
+    .custom__card-footer div button {
+        width: 24px !important;
+        height: 24px !important;
+    }
+
+    .custom__card-footer div button i {
+        font-size: 14px;
+    }
+
+    .custom__card-date {
+        position: absolute;
+        width: 50%;
+        top: 107%;
+        left: 56%;
+        display: none !important;
+    }
+
+    .rent__card-date {
+        top: 136% !important;
+        left: 57% !important;
+    }
+
+    .custom__second-row {
+        position: relative;
+    }
+
+    .custom__card-slider {
+        min-height: 130px !important;
+    }
+
+    .custom__before-dot {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .custom__before-dot::before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        border-radius: 9px;
+        margin-right: 5px;
+        background-color: #707070;
+    }
+
+    .searching-section
+    .searching-div
+    .custom__search-container
+    .custom__search-form
+    .custom__form-item,
+    .form-div {
+        width: 30% !important;
+        margin: 10px 0 !important;
+        font-size: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .rent__card-date {
+        display: block !important;
+    }
+
+    .price {
+        margin-left: 10px !important;
+    }
+}
+
+@media (max-width: 380px) {
+    .elanlar .allAdver .custom__flex-cards .custom__card-container {
+        min-width: 41% !important;
+    }
+}

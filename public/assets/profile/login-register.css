@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+    .login__container {
+        width: 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .mobile-login-card {
+        width: 90vw !important;
+    }
+}
+
+.social__buttons {
+    justify-content: space-between !important;
+    margin-top: 30px !important;
+}
+
+.social__buttons a {
+    width: 47% !important;
+}
+
+.social__buttons a button{
+    width: 100% !important;
+}
+
+@media (max-width: 398px) {
+   .sign-up-first-section {
+       min-width: unset !important;
+   }
+}
+
+@media (max-width: 368px) {
+    .mobile-login-card .sign-in-btns button {
+        width: 120px !important;
+    }
+}
+
+@media (max-width: 328px) {
+    .mobile-login-card .sign-in-btns button {
+        width: 110px !important;
+    }
+}

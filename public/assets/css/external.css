@@ -1,0 +1,9 @@
+header{
+    height: unset;
+    background-image: unset;
+}
+
+.aside-buttons
+{
+    display: none !important;
+}

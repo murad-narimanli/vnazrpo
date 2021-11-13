@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_79" data-name="Rectangle 79" width="25" height="25" transform="translate(1702 207)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_13" data-name="Mask Group 13" transform="translate(-1702 -207)" clip-path="url(#clip-path)">
+    <g id="video-camera_2_" data-name="video-camera (2)" transform="translate(1702 207)">
+      <g id="Group_502" data-name="Group 502">
+        <g id="Group_501" data-name="Group 501">
+          <path id="Path_893" data-name="Path 893" d="M14.141,5.156H2.735A2.743,2.743,0,0,0,0,7.891v9.218a2.743,2.743,0,0,0,2.735,2.735H14.141a2.743,2.743,0,0,0,2.735-2.735V7.891A2.726,2.726,0,0,0,14.141,5.156Z" fill="#7967ad"/>
+        </g>
+      </g>
+      <g id="Group_504" data-name="Group 504">
+        <g id="Group_503" data-name="Group 503">
+          <path id="Path_894" data-name="Path 894" d="M22.976,6.66a1.393,1.393,0,0,0-.465.191L18.244,9.313v6.346l4.294,2.462a1.626,1.626,0,0,0,2.243-.6A1.671,1.671,0,0,0,25,16.7V8.247A1.646,1.646,0,0,0,22.976,6.66Z" fill="#7967ad"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

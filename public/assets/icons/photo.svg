@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_80" data-name="Rectangle 80" width="25" height="25" transform="translate(1878 273)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_14" data-name="Mask Group 14" transform="translate(-1878 -273)" clip-path="url(#clip-path)">
+    <g id="photo-camera" transform="translate(1878 273)">
+      <circle id="Ellipse_16" data-name="Ellipse 16" cx="3.955" cy="3.955" r="3.955" transform="translate(8.545 10.498)" fill="#7967ad"/>
+      <path id="Path_895" data-name="Path 895" d="M18.276,4.443,18.023,3.18A1.469,1.469,0,0,0,16.587,2H8.413A1.469,1.469,0,0,0,6.977,3.18L6.724,4.443Z" fill="#7967ad"/>
+      <path id="Path_896" data-name="Path 896" d="M22.8,5.908H2.2A2.2,2.2,0,0,0,0,8.105V20.8A2.2,2.2,0,0,0,2.2,23H22.8A2.2,2.2,0,0,0,25,20.8V8.105A2.2,2.2,0,0,0,22.8,5.908ZM6.25,10.5H3.906a.732.732,0,0,1,0-1.465H6.25a.732.732,0,0,1,0,1.465Zm6.25,9.375a5.42,5.42,0,1,1,5.42-5.42A5.426,5.426,0,0,1,12.5,19.873Z" fill="#7967ad"/>
+    </g>
+  </g>
+</svg>

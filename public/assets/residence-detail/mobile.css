@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+    .aside-buttons div{
+        display: none !important;
+    }
+    .residence-mobile-card{
+        display: flex !important;
+        justify-content: space-evenly !important;
+    }
+
+    .complex-section .residence-mobile-card .complex-card #custom__card_price {
+        margin-top: -44px !important;
+    }
+
+    .icons {
+        width: 16px;
+        height: 12px;
+    }
+
+    .complex-section .complex-flex-cards .complex-card  .complex-card-image {
+        height: 140px;
+        min-height: 140px;
+        max-height: 140px;
+    }
+    .complex-section .complex-flex-cards .complex-card {
+        max-width: 45% !important;
+        width: 45% !important;
+        min-width: 45% !important;
+    }
+
+    .complex-section .complex-flex-cards .complex-card .complex-card-title{
+        padding-left: 6px !important;
+    }
+
+    .complex-section .complex-flex-cards .complex-card .card-list ul {
+        padding-left: 6px !important;
+    }
+
+    .complex-section .complex-flex-cards .complex-card .card-list ul li{
+        margin-top: 7px!important;
+    }
+}
+
